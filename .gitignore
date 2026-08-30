@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Generated analysis output. Reproduce with `python main.py`.
+output/
+
+# Downloaded crystal structures. Reproduce with `python tools/fetch_data.py`.
+# Excluded because the batch grows to hundreds of megabytes at higher --limit.
+data/t4_lysozyme/
+data/staph_nuclease/
+data/hiv_protease/
+
+# Scratch file written by tools/preview_page.py.
+docs/_preview.md
+
+# Private working notes - not for a public repo.
+todo.txt
+notes.txt
+
+# Local tool config, machine-specific.
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

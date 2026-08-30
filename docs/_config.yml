@@ -1,0 +1,13 @@
+# GitHub Pages config. Serving from the /docs folder on the main branch:
+# Settings -> Pages -> Source: "Deploy from a branch" -> main / docs
+#
+# Visual overrides live in docs/assets/css/style.scss, which imports this theme
+# and then restyles the header, tables, code blocks and figures.
+theme: jekyll-theme-primer
+
+title: StructScan
+description: >-
+  Screens hundreds of protein variant structures against a wild-type reference
+  and ranks them by where, and how much, the structure moved.
+
+show_downloads: false

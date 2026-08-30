@@ -1,0 +1,5 @@
+biopython>=1.81
+pandas>=2.0
+numpy>=1.24
+# Only needed by tools/make_figures.py; the pipeline itself does not import it.
+matplotlib>=3.7

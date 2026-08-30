@@ -1,0 +1,105 @@
+{
+  "reference": "wildtype_reference.pdb",
+  "length": 60,
+  "seed": 20240517,
+  "variants": {
+    "v01_stable": {
+      "kind": "noise",
+      "expect_tag": "Stable",
+      "hotspot_residues": []
+    },
+    "v02_loop_shift_20_26": {
+      "kind": "rigid_window_shift",
+      "expect_tag": "High Priority Hotspot",
+      "window": [
+        20,
+        26
+      ],
+      "magnitude": 2.5,
+      "hotspot_residues": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    "v03_core_shift_40_48": {
+      "kind": "rigid_window_shift",
+      "expect_tag": "High Priority Hotspot",
+      "window": [
+        40,
+        48
+      ],
+      "magnitude": 5.0,
+      "hotspot_residues": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    "v04_terminal_flex": {
+      "kind": "terminal_shift",
+      "expect_tag": "High Priority Hotspot",
+      "window": [
+        55,
+        60
+      ],
+      "magnitude": 4.0,
+      "hotspot_residues": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    "v05_dihedral_kink_30": {
+      "kind": "torsion",
+      "expect_tag": "High Priority Hotspot",
+      "kink_resseq": 30,
+      "delta_degrees": 60.0,
+      "hotspot_residues": [
+        30
+      ]
+    },
+    "v06_rigid_body": {
+      "kind": "rigid_body",
+      "expect_tag": "Stable",
+      "hotspot_residues": [],
+      "note": "identical structure, moved in space; RMSD must be ~0"
+    },
+    "v07_gapped": {
+      "kind": "gap",
+      "expect_tag": "Stable",
+      "missing": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "hotspot_residues": [],
+      "note": "residues 10-14 deleted; must still align on the remainder"
+    },
+    "v08_substitutions": {
+      "kind": "substitution",
+      "expect_tag": "Stable",
+      "substituted_resseq": [
+        15,
+        33,
+        50
+      ],
+      "hotspot_residues": []
+    }
+  }
+}
