@@ -4,7 +4,7 @@ description: Screening macromolecular variant structures for structural hotspots
 ---
 
 <p align="center">
-  <a href="https://github.com/USERNAME/StructScan/actions/workflows/tests.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/USERNAME/StructScan/tests.yml?branch=main&label=tests&style=flat-square"></a>
+  <a href="https://github.com/yfeimei/StructScan/actions/workflows/tests.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/yfeimei/StructScan/tests.yml?branch=main&label=tests&style=flat-square"></a>
   <img alt="16 tests" src="https://img.shields.io/badge/tests-16%20passing-1a7f37?style=flat-square">
   <img alt="validation" src="https://img.shields.io/badge/ground%20truth-8%2F8%20recovered-1a7f37?style=flat-square">
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square">
@@ -12,9 +12,9 @@ description: Screening macromolecular variant structures for structural hotspots
 </p>
 
 <p align="center">
-  <b><a href="https://github.com/USERNAME/StructScan">Source on GitHub</a></b> ·
-  <b><a href="https://github.com/USERNAME/StructScan/blob/main/GETTING_STARTED.md">Getting started</a></b> ·
-  <b><a href="https://github.com/USERNAME/StructScan/blob/main/PROJECT_GUIDE.md">Technical guide</a></b>
+  <b><a href="https://github.com/yfeimei/StructScan">Source on GitHub</a></b> ·
+  <b><a href="https://github.com/yfeimei/StructScan/blob/main/GETTING_STARTED.md">Getting started</a></b> ·
+  <b><a href="https://github.com/yfeimei/StructScan/blob/main/PROJECT_GUIDE.md">Technical guide</a></b>
 </p>
 
 ---
@@ -76,7 +76,7 @@ shape change.
 The whole batch runs from two commands and finishes in about a second, and
 **16 tests pass** alongside it. Full ranking, per-residue detail and the raw run
 log are in
-[the repository](https://github.com/USERNAME/StructScan#results).
+[the repository](https://github.com/yfeimei/StructScan#results).
 
 ### The two results worth reading closely are the imperfect ones
 
@@ -126,7 +126,7 @@ high-ranking entry is not automatically a mutation effect.
 ### 1. Download
 
 ```bash
-git clone https://github.com/USERNAME/StructScan.git
+git clone https://github.com/yfeimei/StructScan.git
 cd StructScan
 ```
 
@@ -172,7 +172,7 @@ python main.py --reference data/t4_lysozyme/wildtype_reference.pdb \
                --output    output/t4_lysozyme --trim-outliers
 ```
 
-> **[Getting Started](https://github.com/USERNAME/StructScan/blob/main/GETTING_STARTED.md)**
+> **[Getting Started](https://github.com/yfeimei/StructScan/blob/main/GETTING_STARTED.md)**
 > is the complete walkthrough — per-shell setup instructions, what every report
 > column means, how to trace a flagged variant to its residues, the full option
 > table, and troubleshooting.

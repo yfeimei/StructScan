@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/USERNAME/StructScan/actions/workflows/tests.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/USERNAME/StructScan/tests.yml?branch=main&label=tests&style=flat-square"></a>
+  <a href="https://github.com/yfeimei/StructScan/actions/workflows/tests.yml"><img alt="tests" src="https://img.shields.io/github/actions/workflow/status/yfeimei/StructScan/tests.yml?branch=main&label=tests&style=flat-square"></a>
   <img alt="16 tests" src="https://img.shields.io/badge/tests-16%20passing-1a7f37?style=flat-square">
   <img alt="validation" src="https://img.shields.io/badge/ground%20truth-8%2F8%20recovered-1a7f37?style=flat-square">
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square">
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <b><a href="https://USERNAME.github.io/StructScan/">Project page &amp; results</a></b> ·
+  <b><a href="https://yfeimei.github.io/StructScan/">Project page &amp; results</a></b> ·
   <b><a href="GETTING_STARTED.md">Getting started</a></b> ·
   <b><a href="PROJECT_GUIDE.md">Technical guide</a></b>
 </p>

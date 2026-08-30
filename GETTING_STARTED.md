@@ -44,7 +44,7 @@ network connection.
 ### 2.1 Get the code
 
 ```bash
-git clone https://github.com/USERNAME/StructScan.git
+git clone https://github.com/yfeimei/StructScan.git
 cd StructScan
 ```
 
